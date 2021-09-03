@@ -7,4 +7,7 @@
 
 Ne pas oublier de supprimer les imports dans les différents modules.
 
-npx create-react-app my-app
+## Install
+
+CLI
+    npx create-react-app

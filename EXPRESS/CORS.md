@@ -9,5 +9,3 @@ Link http://expressjs.com/en/resources/middleware/cors.html
 CLI
 
     npm install cors
-
-Inside 

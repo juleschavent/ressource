@@ -3,9 +3,10 @@
 Read / Insert https://www.youtube.com/watch?v=re3OIOr9dJI&ab_channel=PedroTech
 Update / Delete https://www.youtube.com/watch?v=AohARsUlwQk&ab_channel=PedroTech
 
-CLI
+Créer un dossier server dans notre projet puis dans CLI
 
-    npm install express mysql
+    npm init        // pour créer le fichier package.json
+    npm install express mysql nodemon       // pour installer les libs
 
 CLI (pour tester le console.log de app.listen)
 
@@ -103,13 +104,14 @@ import Axios from "axios"
 
         const [peopleList, setPeopleList] = useState([]);
 
-        const getPeople = () => {
-                //utiliser l'endpoint qui a été créer dans index.js (line-30)
-            Axios.get('http://localhost:3001/people'.then((response) => {
-                console.log(response)
-                setPeopleList(response.data)
-            })
-        }
+         const getPeople = () => {
+             //utiliser l'endpoint qui a été créer dans index.js (line-30)
+            Axios.get("http://localhost:3001/people").then((response) => {
+                console.log(response);
+                setPeopleListe(response.data)
+                }
+            );
+        };
 
 
 
