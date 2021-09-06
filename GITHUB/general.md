@@ -44,3 +44,10 @@
     //il faut se trouver dans branche principale 
     git merge nomDeLaBranche
 
+## Supprimer une branche en remote
+    https://stackoverflow.com/questions/35941566/git-says-remote-ref-does-not-exist-when-i-delete-remote-branch
+    //mise à jour avec les infos du repo en ligne
+    git fetch --prune
+
+    //supprime la version en ligne de la branche
+    git push origin --delete maBranche
