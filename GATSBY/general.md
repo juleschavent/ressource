@@ -47,3 +47,9 @@
 ### AJOUTER UNE IMAGE
     - ajouter le fichier image dans /static
     - utiliser une balise normale <img src="myFile.img" />
+
+### INSTALLER PLUGIN
+    exemple avec gatsby source filesystem
+    https://www.gatsbyjs.com/plugins/gatsby-source-filesystem
+        - copier l'objet fournit par le site gatsby dans le fichier gatsby-config.js
+    
